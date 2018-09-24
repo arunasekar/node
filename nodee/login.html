@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>login</title>
+<script>
+function get()
+{
+if(username.value=="arunasekar"&& password.value=="aruna123")
+{
+alert("welcome");
+window.open("home");
+}
+else
+{
+alert("please enter valid username");
+}
+}
+</script>
+</head>
+<body bgcolor="skyblue">
+<form method="post">
+<h1>NEXTGEN JOBS HAPPILY WELCOMES YOU!</h1><BR><h3>PLEASE LOGIN!</h3>
+<table>
+<tr>
+<td>
+USERNAME:
+</td>
+<td>
+<input type="text" name="username"id="username"><br><br>
+</td>
+</tr>
+<tr>
+<td>
+PASSWORD:
+</td>
+<td>
+<input type="password" name="password"id="password"><br><br
+
+
+</table>
+</form>
+<input type="submit" onclick="get()"/>
+</body>
+</html>
